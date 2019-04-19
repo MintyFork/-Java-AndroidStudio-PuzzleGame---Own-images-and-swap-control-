@@ -1,6 +1,4 @@
-# Układanka wykorzystująca zdjęcia z
-
-# galerii użytkownika
+# Układanka wykorzystująca zdjęcia z galerii użytkownika
 
 # Kamil Stanisławski
 
