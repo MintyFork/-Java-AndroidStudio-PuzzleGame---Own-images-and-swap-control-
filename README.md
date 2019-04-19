@@ -2,16 +2,6 @@
 
 # Kamil Stanisławski
 
-# Projektowanie aplikacji mobilnych
-
-
-Celem zadania jest aplikacja umożliwiająca użytkownikowi zrelaksowanie się np. podczas
-siedzenia w autobusie czy czekania w kolejkach. Użytkownik wybiera obraz i poziom trudności (
-Łatwy, Średni, Trudny), po czym algorytm miesza fragmenty obrazu (kafelki). Zadaniem gracza jest
-ułożenie kafelek w spójny obraz. Gracz może przesuwać kafelki tylko na puste pole. Gdy obraz jest
-spójny gra się kończy i użytkownik otrzymuje informacje o ilości ruchów które wykonał. Trudności
-różnią się ilością przesunięć kafelek przez algorytm.
-
 ```
 Wymagania funkcjonalne:
 ```
@@ -94,20 +84,10 @@ jest pomieszanie kafelek tak jakby zrobił to sam użytkownik, czyli według zas
 podejście wymaga bardzo dużej ilości iteracji z powodu zasad jakie to podejście narzuca. Jako że
 mamy do wyboru cztery ruchy kafelkiem z czego niektóre z nich mogą być niemożliwe w aktualnej
 pozycji kafelka, niektóre iteracje przepadają. Kolejnym problemem jest powrót kafelka na
-
-
 poprzednie miejsce co może wydawać się dziwne w końcu mamy w teorii 25% szans na powrót. Ale
 jeśli spojrzymy na pozycje startową kafelka która umożliwia tylko dwa kierunki, a następnie tylko trzy
 z czego jedna to powrót, mamy aż 33,3% szans na to, że kafelek powróci na swoje miejsce. Przez te
 problemy niska ilość iteracji będzie prowadziła do natychmiastowego “ułożenia” puzzli i zakończenia
 gry.
-
-Różna wielkość obrazków w galerii powodowała problemy. Niebyło widać niektórych części
-obrazka, a czasami obrazki były zbyt małe co było niezwykle irytujące w układaniu. Skalowanie do
-szerokości ekranu pomogło naprawić ten problem. Dzięki temu rozwiązaniu duże obrazki zawsze
-mieszczą się na ekranie, a małe obrazki poprawnie wypełniają ekran. Jedynym problemem
-wynikającym z tego rozwiązania jest rozpikselizownie małych obrazków, ale w ostatecznym
-rozrachunku ten sposób prezentowania obrazków daje więcej plusów niż minusów.
-
 
 If you interested in how code works in depth open file ReadMe.pdf
