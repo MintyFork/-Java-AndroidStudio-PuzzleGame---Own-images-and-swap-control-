@@ -112,3 +112,4 @@ wynikającym z tego rozwiązania jest rozpikselizownie małych obrazków, ale w 
 rozrachunku ten sposób prezentowania obrazków daje więcej plusów niż minusów.
 
 
+If you interested in how code works in depth open file ReadMe.pdf
